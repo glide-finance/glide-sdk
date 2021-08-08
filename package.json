@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/glide-finance/glide-sdk.git",
+  "repository": "git://github.com/glide-finance/glide-sdk.git",
   "keywords": [
     "glide",
     "elastos"
