@@ -10,8 +10,8 @@
   ],
   "repository": "https://github.com/glide-finance/glide-sdk.git",
   "keywords": [
-    "pancakeswap",
-    "bsc"
+    "glide",
+    "elastos"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
