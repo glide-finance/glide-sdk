@@ -64,5 +64,7 @@ export const WETH = {
     'WELA',
     'Wrapped ELA'
   ),
-  [ChainId.TESTNET]: new Token(ChainId.TESTNET, '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e', 18, 'WELA', 'Wrapped ELA')
+  [ChainId.TESTNET]: new Token(ChainId.TESTNET, '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e', 18, 'WELA', 'Wrapped ELA'),
+  [ChainId.HECO]: new Token(ChainId.TESTNET, '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f', 18, 'WHT', 'Wrapped HT'),
+  [ChainId.ETHEREUM]: new Token(ChainId.TESTNET, '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 18, 'WETH', 'Wrapped ETH')
 }
