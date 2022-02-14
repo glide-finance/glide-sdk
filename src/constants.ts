@@ -4,10 +4,11 @@ import JSBI from 'jsbi'
 export type BigintIsh = JSBI | bigint | string
 
 export enum ChainId {
+  ETHEREUM = 1,
   MAINNET = 20,
   TESTNET = 21,
-  HECO = 128,
-  ETHEREUM = 1
+  BINANCE = 56,
+  HECO = 128
 }
 
 export enum TradeType {
