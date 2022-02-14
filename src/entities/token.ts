@@ -57,6 +57,13 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 }
 
 export const WETH = {
+  [ChainId.ETHEREUM]: new Token(
+    ChainId.ETHEREUM,
+    '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    18,
+    'WETH',
+    'Wrapped ETH'
+  ),
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
     '0x517E9e5d46C1EA8aB6f78677d6114Ef47F71f6c4',
@@ -64,7 +71,19 @@ export const WETH = {
     'WELA',
     'Wrapped ELA'
   ),
-  [ChainId.TESTNET]: new Token(ChainId.TESTNET, '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e', 18, 'WELA', 'Wrapped ELA'),
-  [ChainId.HECO]: new Token(ChainId.HECO, '0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F', 18, 'WHT', 'Wrapped HT'),
-  [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped ETH')
+  [ChainId.TESTNET]: new Token(
+    ChainId.TESTNET,
+    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+    18,
+    'WELA',
+    'Wrapped ELA'
+  ),
+  [ChainId.BINANCE]: new Token(
+    ChainId.BINANCE,
+    '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    18,
+    'WBNB',
+    'Wrapped BNB'
+  ),
+  [ChainId.HECO]: new Token(ChainId.HECO, '0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F', 18, 'WHT', 'Wrapped HT')
 }
